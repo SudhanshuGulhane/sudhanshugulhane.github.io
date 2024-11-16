@@ -1,0 +1,134 @@
+.home-div {
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.profile-pic {
+    object-fit: cover;
+    height: 70vh;
+    width: 50vh;
+    order: 1;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 100vw;
+    order: 0;
+    height: auto;
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.intro-name {
+    color:aqua;
+}
+
+.intro-para {    
+    font-size: medium;
+    font-weight: 200;
+}
+
+.profile-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: aqua;
+    font-weight: bold;
+    transition: color 0.3s ease
+}
+
+.link i {
+    font-size: 1.2rem;
+}
+
+.link:hover {
+    color:cornsilk;
+}
+
+.link:nth-child(1) i {
+    color: #0A66C2;
+}
+
+.link:nth-child(2) i {
+    color: aliceblue;
+}
+
+.link:nth-child(3) i {
+    color: #FFA116;
+}
+
+.link:nth-child(4) i {
+    color:azure;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-div {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+
+    .profile-pic {
+        order: 0;
+        height: 50vh;
+        width: auto;
+    }
+
+    .intro-content {
+        order: 1;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .intro-para {
+        font-size: small;
+    }
+
+    .profile-links {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 665px){
+    .home-div {
+        padding: 1rem;
+    }
+
+    .profile-pic {
+        height: 40vh;
+    }
+
+    .intro-content {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .intro-para {
+        font-size: 0.85rem;
+    }
+
+}
