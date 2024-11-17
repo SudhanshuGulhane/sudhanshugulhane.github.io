@@ -8,7 +8,7 @@ export const ThemeProvider = ({ children }) => {
   const toggleTheme = () => {
     setDarkMode((curr) => {
         const newMode = curr === "light" ? "dark" : "light";
-        document.body.style.backgroundColor = newMode === "dark" ? "#180A0A" : "#FFFFFF";
+        document.body.style.backgroundColor = newMode === "dark" ? "#180A0A" : "cornsilk";
         return newMode;
     });
   };

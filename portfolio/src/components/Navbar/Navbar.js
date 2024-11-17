@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/projects" className={`nav-menu-item ${isDarkMode}`}>Projects</Link>
             <Link to="/experience"className={`nav-menu-item ${isDarkMode}`}>Experience</Link>
         </div>
-        <button className='contact-button'>
+        <button className={`contact-button ${isDarkMode}`}>
             <img src={contactMe} alt='' className='contact-button-img' />
             Contact Me
         </button>
