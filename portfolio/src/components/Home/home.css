@@ -10,6 +10,7 @@
 }
 
 .profile-pic {
+    margin: auto;
     object-fit: cover;
     height: 70vh;
     width: 50vh;
@@ -28,9 +29,25 @@
     height: auto;
 }
 
-.hello{
+.hello {
     font-size: 1.75rem;
     font-weight: 100;
+}
+
+.hello.light{
+    color:black;
+}
+
+.intro-text.light {
+    color: black;
+}
+
+.intro-name.light {
+    color:#FFA116;
+}
+
+.intro-para.light {
+    color:black;
 }
 
 .intro-name {
@@ -68,6 +85,10 @@
     color:cornsilk;
 }
 
+.link.light {
+    color:black;
+}
+
 .link:nth-child(1) i {
     color: #0A66C2;
 }
@@ -76,12 +97,20 @@
     color: aliceblue;
 }
 
+.link:nth-child(2) i.light {
+    color: black;
+}
+
 .link:nth-child(3) i {
     color: #FFA116;
 }
 
 .link:nth-child(4) i {
     color:azure;
+}
+
+.link:nth-child(4) i.light {
+    color: crimson;
 }
 
 @media screen and (max-width: 1024px) {
@@ -129,6 +158,18 @@
 
     .intro-para {
         font-size: 0.85rem;
+    }
+
+    .link {
+        font-size: 0.75rem;
+    }
+
+    .link i {
+        font-size: 0.75rem;
+    }
+
+    .profile-links {
+        gap: 0.5rem;
     }
 
 }

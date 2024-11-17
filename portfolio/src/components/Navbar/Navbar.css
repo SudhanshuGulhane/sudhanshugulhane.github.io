@@ -12,15 +12,45 @@
     z-index: 3;
 }
 
-.logo{
-    object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+.toggle-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-button i {
+    pointer-events: none;
+}
+
+.toggle-button:hover {
+    color: rgb(123, 220, 229);
+    transform: scale(1.1);
+}
+
+.toggle-button.light {
+    color:black;
 }
 
 .nav-menu-item{
+    color: white;
     margin: 1rem;
     cursor: pointer;
+}
+
+.nav-menu-item.light{
+    color: black
+}
+
+.nav-menu-item.light:hover{
+    color:crimson;
+    border-bottom: 2px solid crimson;
 }
 
 .nav-menu-item:hover{
