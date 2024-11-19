@@ -34,6 +34,19 @@
     background-color:rgb(71, 75, 78);
 }
 
+.skillsTitle.light {
+    color: black;
+}
+
+.skillsDesc.light {
+    color: black;
+}
+
+.skillsItem.light {
+    color:black;
+    background-color: ghostwhite;
+}
+
 @media screen and (max-width: 750px){
     .skillsDesc {
         margin: 0 5rem;
