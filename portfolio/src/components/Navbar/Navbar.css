@@ -12,6 +12,11 @@
     z-index: 3;
 }
 
+.not-sticky {
+    position: relative;
+    top: 1rem;
+}
+
 .toggle-button {
     background-color: transparent;
     border: none;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import contactMe from '../../assets/contact.png'
 import { Link } from 'react-router-dom';
@@ -7,11 +7,36 @@ import { useTheme } from '../../contexts/ThemeContext';
 const Navbar = () => {
 
   const { isDarkMode, toggleTheme } = useTheme();
+  const [isSticky, setIsSticky] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
 
-  console.log(isDarkMode)
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      const experienceSection = document.querySelector('.experience-section h2');
+      const isScrollingUp = currentScrollPos < prevScrollPos; // scrolling up or down
+
+      if(experienceSection){
+        const rect = experienceSection.getBoundingClientRect();
+        const isOverlappingExperience = rect.top <= 0 && rect.bottom >= 0;
+        
+        if(isScrollingUp && rect.top>=0){
+          setIsSticky(true);
+        }else if(!isScrollingUp || isOverlappingExperience){
+          setIsSticky(false);
+        }
+      }
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
 
   return (
-    <nav className='navbar'>
+    <nav className={`navbar ${isSticky ? 'sticky' : 'not-sticky'}`}>
         <button className={`toggle-button ${isDarkMode}`} onClick={toggleTheme}>
           <i className={isDarkMode==="dark" ? 'fas fa-sun' : 'fas fa-moon'}></i>
         </button>

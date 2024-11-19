@@ -1,7 +1,11 @@
 .experience-section {
     padding: 2rem;
-    background-color: #232324;
+    background-color: #180A0A;
     color: #333;
+}
+
+.experience-section.light {
+    background-color: cornsilk;
 }
 
 .section-title {
@@ -10,6 +14,10 @@
     margin-bottom: 2rem;
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+.section-title.light {
+    color: #180A0A;
 }
 
 .vertical-timeline-element-title {
@@ -43,4 +51,8 @@
 
 .custom-date-style {
     color: aqua;
+}
+
+.custom-date-style.light {
+    color: #FFA116;
 }
