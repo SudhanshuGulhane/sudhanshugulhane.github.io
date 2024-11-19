@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import './navbar.css'
-import contactMe from '../../assets/contact.png'
 import { Link } from 'react-router-dom';
 import { useTheme } from '../../contexts/ThemeContext';
 
@@ -14,10 +13,17 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
       const experienceSection = document.querySelector('.experience-section h2');
+      const aboutmeTitleSection = document.querySelector('.skillsTitle');
       const isScrollingUp = currentScrollPos < prevScrollPos; // scrolling up or down
 
-      if(experienceSection){
-        const rect = experienceSection.getBoundingClientRect();
+      if(experienceSection || aboutmeTitleSection){
+        var rect;
+        if(aboutmeTitleSection){
+          rect = aboutmeTitleSection.getBoundingClientRect();
+        }
+        if(experienceSection){
+          rect = experienceSection.getBoundingClientRect();
+        }
         const isOverlappingExperience = rect.top <= 0 && rect.bottom >= 0;
         
         if(isScrollingUp && rect.top>=0){
@@ -47,7 +53,6 @@ const Navbar = () => {
             <Link to="/experience"className={`nav-menu-item ${isDarkMode}`}>Experience</Link>
         </div>
         <button className={`contact-button ${isDarkMode}`}>
-            <img src={contactMe} alt='' className='contact-button-img' />
             Contact Me
         </button>
     </nav>
