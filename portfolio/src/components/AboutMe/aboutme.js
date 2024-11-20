@@ -1,12 +1,21 @@
 import React from 'react'
 import './aboutme.css'
 import { useTheme } from '../../contexts/ThemeContext';
+import { motion } from 'framer-motion'
+import { aboutmePageVariant } from '../../animations/animations';
 
 const Aboutme = () => {
 
   const { isDarkMode } = useTheme();
 
   return (
+    <motion.div
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      variants={aboutmePageVariant}
+      transition={{ type: "spring", stiffness: 100, damping: 20 }}
+    >
       <div className='skills'>
           <span className={`skillsTitle ${isDarkMode}`}>What I work on</span>
           <span className={`skillsDesc ${isDarkMode}`}>I specialize in innovative solutions across machine learning, software engineering, and full-stack development. With expertise in predictive modeling, natural language processing, and computer vision, I build scalable applications with robust backends, responsive frontends, and seamless API integrations. My strong foundation in programming, data analysis, and cloud technologies enables me to craft efficient, user-centric, and high-performing solutions.</span>
@@ -32,6 +41,7 @@ const Aboutme = () => {
             
           </div>
       </div>
+    </motion.div>
   )
 }
 
