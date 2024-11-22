@@ -134,7 +134,6 @@ body {
 
 .cursor {
     display: inline-block;
-    border-left: 2px solid #ffa726;
     margin-left: 5px;
     animation: blink 0.7s steps(1) infinite;
 }
