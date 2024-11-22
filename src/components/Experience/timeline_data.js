@@ -17,6 +17,14 @@ const timelineElements = [
     },
     {
         id: 3,
+        title: "Research Assistant",
+        location: "Mumbai, India (remote)",
+        company_name: "VJTI, Mumbai",
+        description:"Developed an advanced ALPR system under the guidance of Prof Sandeep Udmale achieving 96.56% accuracy on the AOLP dataset by optimizing YOLOv4 for license plate detection and designing a CNN-based character recognition model. Integrated Spatial Transformer Networks for real-time distortion correction and curated a 3,000-image dataset to enhance robustness, achieving 90% mAP on diverse test sets.",
+        date: "May 2023 - Dec 2023",
+    },
+    {
+        id: 4,
         title: "Full Stack Developer Intern",
         location: "Amsterdam, Netherlands (remote)",
         company_name: "SimpleCoding",
@@ -24,7 +32,7 @@ const timelineElements = [
         date: "May 2021 - June 2021",
     },
     {
-        id: 4,
+        id: 5,
         title: "Backend Developer Intern",
         location: "Mumbai, India (remote)",
         company_name: "Tata Digital",

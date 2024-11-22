@@ -1,8 +1,14 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { projectPageVariant } from '../../animations/animations';
+import { projectsData } from './projects_data';
+import './projects.css';
+import { useTheme } from '../../contexts/ThemeContext';
 
 const Projects = () => {
+
+  const { isDarkMode } = useTheme();
+
   return (
     <motion.div
       className="projects"
@@ -12,7 +18,27 @@ const Projects = () => {
       variants={projectPageVariant}
       transition={{ duration: 0.5, ease: "easeInOut" }}
     >
-      <div>Projects</div>
+      <h2 className={`projects-heading ${isDarkMode}`}>Projects</h2>
+      <p className={`projects-subheading ${isDarkMode}`}>
+        Here are some of my recent projects showcasing my skills and experience.
+      </p>
+      <div className="projects-grid">
+        {projectsData.map((project, index) => (
+          <div key={index} className="project-card">
+            <img src={project.img} alt='' />
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
     </motion.div>
   )
 }

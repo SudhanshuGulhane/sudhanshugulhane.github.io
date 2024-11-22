@@ -14,15 +14,19 @@ const Navbar = () => {
       const currentScrollPos = window.scrollY;
       const experienceSection = document.querySelector('.experience-section h2');
       const aboutmeTitleSection = document.querySelector('.skillsTitle');
+      const projectsSection = document.querySelector('.projects-heading');
       const isScrollingUp = currentScrollPos < prevScrollPos; // scrolling up or down
 
-      if(experienceSection || aboutmeTitleSection){
+      if(experienceSection || aboutmeTitleSection || projectsSection){
         var rect;
         if(aboutmeTitleSection){
           rect = aboutmeTitleSection.getBoundingClientRect();
         }
         if(experienceSection){
           rect = experienceSection.getBoundingClientRect();
+        }
+        if(projectsSection){
+          rect = projectsSection.getBoundingClientRect();
         }
         const isOverlappingExperience = rect.top <= 0 && rect.bottom >= 0;
         

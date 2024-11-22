@@ -36,7 +36,7 @@ const Home = () => {
                   </a>
               </div>
           </div>
-          <img src={profile} alt='Profile' className='profile-pic'/>
+          <img src={profile} alt='Profile' className={`profile-pic ${isDarkMode}`} />
       </div>
     </motion.div>
   )

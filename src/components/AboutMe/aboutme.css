@@ -44,7 +44,7 @@
 
 .skillsItem.light {
     color:black;
-    background-color: ghostwhite;
+    background-color: moccasin;
 }
 
 @media screen and (max-width: 750px){
