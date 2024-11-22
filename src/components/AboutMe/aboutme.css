@@ -47,6 +47,33 @@
     background-color: moccasin;
 }
 
+.skillsItem.light h3 {
+    color: black;
+}
+
+.resume-link {
+    font-weight: 700;
+    color: aqua;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    border-bottom: 1px solid aqua;
+}
+
+.resume-link.light {
+    font-weight: 700;
+    color: rgb(89, 8, 8);
+}
+
+.resume-link.light:hover {
+    border-bottom: 2px solid rgb(89, 8, 8);
+}
+
+.skillItemText h3 {
+    color: aqua
+}
+
 @media screen and (max-width: 750px){
     .skillsDesc {
         margin: 0 5rem;

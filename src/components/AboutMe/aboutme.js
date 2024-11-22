@@ -18,7 +18,8 @@ const Aboutme = () => {
     >
       <div className='skills'>
           <span className={`skillsTitle ${isDarkMode}`}>What I work on</span>
-          <span className={`skillsDesc ${isDarkMode}`}>I specialize in innovative solutions across machine learning, software engineering, and full-stack development. With expertise in predictive modeling, natural language processing, and computer vision, I build scalable applications with robust backends, responsive frontends, and seamless API integrations. My strong foundation in programming, data analysis, and cloud technologies enables me to craft efficient, user-centric, and high-performing solutions.</span>
+          <span className={`skillsDesc ${isDarkMode}`}>I specialize in innovative solutions across <a href='https://drive.google.com/file/d/1JFcxpYXwgCIoCCqKfT-QDVKDVH3y2x12/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={`resume-link ${isDarkMode}`}>machine learning</a>,
+          <a href='https://drive.google.com/file/d/1WSIBjbShSh2Vavnq5LFFFiVyNBWUUrsa/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={`resume-link ${isDarkMode}`}> software engineering</a>, and full-stack development. With expertise in predictive modeling, natural language processing, and computer vision, I build scalable applications with robust backends, responsive frontends, and seamless API integrations. My strong foundation in programming, data analysis, and cloud technologies enables me to craft efficient, user-centric, and high-performing solutions.</span>
           <div className='skillsSection'>
             <div className={`skillsItem ${isDarkMode}`}>
               <div className='skillItemText'>
