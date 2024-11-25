@@ -56,9 +56,9 @@ const Navbar = () => {
             <Link to="/projects" className={`nav-menu-item ${isDarkMode}`}>Projects</Link>
             <Link to="/experience"className={`nav-menu-item ${isDarkMode}`}>Experience</Link>
         </div>
-        <button className={`contact-button ${isDarkMode}`}>
-            Contact Me
-        </button>
+        <Link to="/contact" className={`contact-button ${isDarkMode}`}>
+          Contact Me
+        </Link>
     </nav>
   )
 }
