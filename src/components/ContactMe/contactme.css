@@ -72,3 +72,14 @@
 .form-submit-button.light:hover {
     background-color:rgb(208, 160, 40);
 }
+
+.status-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #ffa726;
+    text-align: center;
+}
+  
+.status-message.error {
+    color: #ff5252;
+}  
