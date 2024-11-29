@@ -35,6 +35,12 @@
     border-radius: 8px;
     padding: 1.5rem;
     width: 35vw;
+    height: 30vw;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
   
@@ -47,12 +53,41 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: #ffa726;
+    z-index: 2;
+}
+
+.project-card img {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s ease;
 }
   
+.project-card:hover img {
+    opacity: 0;
+}
+
 .project-description {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     color: #dddddd;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease, top 0.5s ease;
+  }
+  
+.project-card:hover .project-description {
+    opacity: 1;
+    top: 50%;
 }
 
 .project-link {
@@ -64,3 +99,68 @@
     text-decoration: underline;
 }
   
+@media (max-width: 1060px) {
+    .project-card {
+      width: 45vw;
+      height: 40vw;
+    }
+  
+    .project-title {
+      font-size: 1.25rem;
+    }
+  
+    .project-description {
+      font-size: 0.9rem;
+    }
+  
+    .project-link {
+      font-size: 0.9rem;
+    }
+}
+  
+@media (max-width: 768px) {
+    .project-card {
+      width: 70vw;
+      height: 50vw;
+    }
+  
+    .project-title {
+      font-size: 1.2rem;
+    }
+  
+    .project-description {
+      font-size: 0.85rem;
+    }
+  
+    .project-link {
+      font-size: 0.85rem;
+    }
+
+    .project-card img {
+        left: 1rem;
+    }
+}
+  
+@media (max-width: 480px) {
+    .project-card {
+      width: 90vw;
+      height: 70vw;
+    }
+  
+    .project-title {
+      font-size: 1rem;
+    }
+  
+    .project-description {
+      font-size: 0.8rem;
+    }
+  
+    .project-link {
+      font-size: 0.8rem;
+    }
+
+    
+    .project-card img {
+        left: 1rem;
+    }
+}

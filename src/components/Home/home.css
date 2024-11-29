@@ -153,14 +153,16 @@ body {
 
     .profile-pic {
         order: 0;
-        height: 50vh;
-        width: auto;
+        height: 45vh;
+        width: 30vw;
+        margin: 1rem;
     }
 
     .intro-content {
         order: 1;
         text-align: center;
         padding: 1.5rem;
+        font-size: 1rem;
     }
 
     .intro-para {
@@ -173,13 +175,15 @@ body {
     }
 }
 
-@media (min-width: 300px) and (max-width: 665px){
+@media (min-width: 300px) and (max-width: 500px){
     .home-div {
         padding: 1rem;
     }
 
     .profile-pic {
-        height: 40vh;
+        height: 30vh;
+        width: 50vw;
+        margin: 0.5rem;
     }
 
     .intro-content {
@@ -203,4 +207,11 @@ body {
         gap: 0.5rem;
     }
 
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+    .profile-pic {
+        height: 35vh;
+        width: 30vw;
+    }
 }

@@ -25,9 +25,8 @@ const Projects = () => {
       <div className="projects-grid">
         {projectsData.map((project, index) => (
           <div key={index} className="project-card">
-            <img src={project.img} alt='' />
             <h3 className="project-title">{project.title}</h3>
-            <p className="project-description">{project.description}</p>
+            <img src={project.image}/>
             <a
               href={project.url}
               target="_blank"
@@ -36,6 +35,7 @@ const Projects = () => {
             >
               View Project
             </a>
+            <p className="project-description">{project.description}</p>
           </div>
         ))}
       </div>
