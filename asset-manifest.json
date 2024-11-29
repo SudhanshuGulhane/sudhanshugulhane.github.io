@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.14b44647.css",
-    "main.js": "/static/js/main.5dfd5b85.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/profile.jpg": "/static/media/profile.c9e14a2163b24092665f.jpg",
-    "static/media/layoffs_lens.png": "/static/media/layoffs_lens.1bb97e5ae890830581c5.png",
-    "static/media/review_analyzer.png": "/static/media/review_analyzer.9c156323815e4b324508.png",
-    "static/media/stock-prediction.png": "/static/media/stock-prediction.2e4b0fa89f768adf5fce.png",
-    "static/media/e_commerce.png": "/static/media/e_commerce.aa6cee96d467f473f6fe.png",
-    "static/media/smoking_history_prediction.png": "/static/media/smoking_history_prediction.20dbee99e3f49fe7fd74.png",
-    "index.html": "/index.html",
-    "main.14b44647.css.map": "/static/css/main.14b44647.css.map",
-    "main.5dfd5b85.js.map": "/static/js/main.5dfd5b85.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio-Website/static/css/main.14b44647.css",
+    "main.js": "/Portfolio-Website/static/js/main.0850e9a5.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio-Website/static/js/453.1407b060.chunk.js",
+    "static/media/profile.jpg": "/Portfolio-Website/static/media/profile.c9e14a2163b24092665f.jpg",
+    "static/media/layoffs_lens.png": "/Portfolio-Website/static/media/layoffs_lens.1bb97e5ae890830581c5.png",
+    "static/media/review_analyzer.png": "/Portfolio-Website/static/media/review_analyzer.9c156323815e4b324508.png",
+    "static/media/stock-prediction.png": "/Portfolio-Website/static/media/stock-prediction.2e4b0fa89f768adf5fce.png",
+    "static/media/e_commerce.png": "/Portfolio-Website/static/media/e_commerce.aa6cee96d467f473f6fe.png",
+    "static/media/smoking_history_prediction.png": "/Portfolio-Website/static/media/smoking_history_prediction.20dbee99e3f49fe7fd74.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.14b44647.css.map": "/Portfolio-Website/static/css/main.14b44647.css.map",
+    "main.0850e9a5.js.map": "/Portfolio-Website/static/js/main.0850e9a5.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio-Website/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14b44647.css",
-    "static/js/main.5dfd5b85.js"
+    "static/js/main.0850e9a5.js"
   ]
 }
