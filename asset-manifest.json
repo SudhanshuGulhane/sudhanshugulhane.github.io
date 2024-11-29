@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.14b44647.css",
-    "main.js": "/static/js/main.5dfd5b85.js",
+    "main.css": "/static/css/main.cb2a659f.css",
+    "main.js": "/static/js/main.a55ae32f.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/profile.jpg": "/static/media/profile.c9e14a2163b24092665f.jpg",
     "static/media/layoffs_lens.png": "/static/media/layoffs_lens.1bb97e5ae890830581c5.png",
@@ -10,12 +10,12 @@
     "static/media/e_commerce.png": "/static/media/e_commerce.aa6cee96d467f473f6fe.png",
     "static/media/smoking_history_prediction.png": "/static/media/smoking_history_prediction.20dbee99e3f49fe7fd74.png",
     "index.html": "/index.html",
-    "main.14b44647.css.map": "/static/css/main.14b44647.css.map",
-    "main.5dfd5b85.js.map": "/static/js/main.5dfd5b85.js.map",
+    "main.cb2a659f.css.map": "/static/css/main.cb2a659f.css.map",
+    "main.a55ae32f.js.map": "/static/js/main.a55ae32f.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14b44647.css",
-    "static/js/main.5dfd5b85.js"
+    "static/css/main.cb2a659f.css",
+    "static/js/main.a55ae32f.js"
   ]
 }
