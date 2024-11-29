@@ -68,12 +68,12 @@ const Navbar = () => {
         <button className={`toggle-button ${isDarkMode}`} onClick={toggleTheme}>
           <i className={isDarkMode==="dark" ? 'fas fa-sun' : 'fas fa-moon'}></i>
         </button>
-        <div className={`hamburger-menu ${isMenuOpen ? 'open': ''}`} onClick={toggleMenu}>
+        <div className={`hamburger-menu ${isMenuOpen ? 'open': ''} ${isDarkMode}`} onClick={toggleMenu}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-        <div className={`nav-menu ${isMenuOpen ? 'show': ''}`}>
+        <div className={`nav-menu ${isMenuOpen ? 'show': ''} ${isDarkMode}`}>
             <Link to="/" className={`nav-menu-item ${isDarkMode}`} onClick={handleLinkClick}>Home</Link>
             <Link to="/aboutme" className={`nav-menu-item ${isDarkMode}`} onClick={handleLinkClick}>About me</Link>
             <Link to="/projects" className={`nav-menu-item ${isDarkMode}`} onClick={handleLinkClick}>Projects</Link>

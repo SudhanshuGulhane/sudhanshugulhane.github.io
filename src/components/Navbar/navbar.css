@@ -103,6 +103,10 @@
     transition: all 0.3s ease;
 }
 
+.hamburger-menu.light .bar {
+    background-color: #121212;
+}
+
 .hamburger-menu.open .bar:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -126,6 +130,10 @@
     width: 100%;
     padding: 1rem;
     z-index: 10;
+}
+
+.nav-menu.show.light {
+    background-color: cornsilk;
 }
 
 @media screen and (max-width: 620px) {
