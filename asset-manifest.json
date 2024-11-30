@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.cb2a659f.css",
-    "main.js": "/static/js/main.a55ae32f.js",
+    "main.js": "/static/js/main.1e5b3f89.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
-    "static/media/profile.jpg": "/static/media/profile.c9e14a2163b24092665f.jpg",
-    "static/media/layoffs_lens.png": "/static/media/layoffs_lens.1bb97e5ae890830581c5.png",
-    "static/media/review_analyzer.png": "/static/media/review_analyzer.9c156323815e4b324508.png",
-    "static/media/stock-prediction.png": "/static/media/stock-prediction.2e4b0fa89f768adf5fce.png",
-    "static/media/e_commerce.png": "/static/media/e_commerce.aa6cee96d467f473f6fe.png",
-    "static/media/smoking_history_prediction.png": "/static/media/smoking_history_prediction.20dbee99e3f49fe7fd74.png",
+    "static/media/profile.webp": "/static/media/profile.43625c9b2f4925f591cb.webp",
+    "static/media/layoffs_lens.webp": "/static/media/layoffs_lens.88159d2b120d8717932b.webp",
+    "static/media/e_commerce.webp": "/static/media/e_commerce.6bf882209afb2b70a8f4.webp",
+    "static/media/stock-prediction.webp": "/static/media/stock-prediction.8cbea1ec6ef1f0ec8823.webp",
+    "static/media/review_analyzer.webp": "/static/media/review_analyzer.9ed648f0d046b7c77208.webp",
+    "static/media/smoking_history_prediction.webp": "/static/media/smoking_history_prediction.fe69a8dceb76cbc3ef5e.webp",
     "index.html": "/index.html",
     "main.cb2a659f.css.map": "/static/css/main.cb2a659f.css.map",
-    "main.a55ae32f.js.map": "/static/js/main.a55ae32f.js.map",
+    "main.1e5b3f89.js.map": "/static/js/main.1e5b3f89.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb2a659f.css",
-    "static/js/main.a55ae32f.js"
+    "static/js/main.1e5b3f89.js"
   ]
 }
