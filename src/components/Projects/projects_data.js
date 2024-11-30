@@ -1,8 +1,8 @@
-import stock_pred from '../../assets/stock-prediction.png'
-import ecom from '../../assets/e_commerce.png'
-import review_analyzer from '../../assets/review_analyzer.png'
-import history_predictor from '../../assets/smoking_history_prediction.png'
-import layoff_lens from '../../assets/layoffs_lens.png'
+import stock_pred from '../../assets/stock-prediction.webp'
+import ecom from '../../assets/e_commerce.webp'
+import review_analyzer from '../../assets/review_analyzer.webp'
+import history_predictor from '../../assets/smoking_history_prediction.webp'
+import layoff_lens from '../../assets/layoffs_lens.webp'
 
 export const projectsData = [
     {

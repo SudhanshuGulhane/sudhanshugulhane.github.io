@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './home.css'
-import profile from '../../assets/profile.jpg'
+import profile from '../../assets/profile.webp'
 import { useTheme } from '../../contexts/ThemeContext';
 import {motion} from 'framer-motion'
 import { homePageVariant } from '../../animations/animations';
@@ -66,9 +66,6 @@ const Home = () => {
                   </a>
                   <a href='https://leetcode.com/u/sudhanshungulhane/' target='_blank' rel='noopener noreferrer' className={`link ${isDarkMode}`}>
                       <i className='fas fa-code'></i> LeetCode
-                  </a>
-                  <a href='mailto:sgulh001@ucr.edu' className={`link ${isDarkMode}`}>
-                      <i className={`fas fa-envelope ${isDarkMode}`}></i> Gmail
                   </a>
               </div>
           </div>
