@@ -1,12 +1,12 @@
 const timelineElements = [
     {
         id: 1,
-        title: "Survey Project",
+        title: "Enhancing Autonomous Vehicles for Adverse Conditions",
         location: "Riverside, USA",
         company_name: "UC Riverside",
-        description: "Leading an ongoing research survey under Professor Amr Magdy at UCR, exploring perception and decision-making in autonomous vehicles. Reviewing 30+ scholarly articles and synthesizing data from various sources to identify emerging trends. Preparing a comprehensive report to outline the evolution and future of autonomous driving technologies.  ",
+        description: "Currently, I am collaborating with prof <a href='https://cisl.ucr.edu/people/' target='_blank' style='color: black;'>Hang Qiu</a>, with a focus is developing a context-aware sensor selection/fusion techniques tailored to inclement weather conditions for autonomous vehicles. Also leading an ongoing research survey under Professor Amr Magdy, exploring perception and decision-making in autonomous vehicles.",
         date: "September 2024 - Present",
-      },
+    },
     {
         id: 2,
         title: "Software Engineer",
