@@ -21,7 +21,7 @@ export const projectsData = [
     {
       image: history_predictor,
       title: "SmokeSense AI",
-      description: "Built an Artificial Neural Network classifier to predict smoking habits from medical data of 9M+ patients, achieving 83% accuracy.",
+      description: "Developed SmokeSenseAI, an end-to-end MLOps pipeline with PyTorch, Flask, and MLflow, achieving 83%+ accuracy on a 9M+ patient dataset, automated CI/CD with GitHub Actions, and deployed via Docker & Azure Container Instances (ACI) for real-time smoking prediction.",
       url: "https://github.com/SudhanshuGulhane/Smoking-History-Predictor",
     },
     {

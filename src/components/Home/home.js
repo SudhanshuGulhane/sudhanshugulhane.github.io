@@ -56,7 +56,7 @@ const Home = () => {
                 <br/>{displayText}
                 <span className="cursor">|</span>
               </span>
-              <p className={`intro-para ${isDarkMode}`}>and a master's student at UC Riverside who loves turning complex challenges into impactful solutions. With a passion for software engineering, machine learning, and all things data, I enjoy crafting efficient, real-world applications. Let's team up and shape the future of technology together!</p>
+              <p className={`intro-para ${isDarkMode}`}>and a master's student at UC Riverside who loves turning complex challenges into impactful solutions. With a passion for software engineering in AI/ML, I enjoy developing efficient, real-world applications. Let's team up and shape the future of technology together!</p>
               <div className='profile-links'>
                   <a href='https://www.linkedin.com/in/sudhanshu-gulhane' target='_blank' rel='noopener noreferrer' className={`link ${isDarkMode}`}>
                       <i className='fab fa-linkedin'></i> LinkedIn
