@@ -1,9 +1,10 @@
 import stock_pred from '../../assets/stock-prediction.webp'
 import ecom from '../../assets/e_commerce.webp'
 import review_analyzer from '../../assets/review_analyzer.webp'
-import history_predictor from '../../assets/smoking_history_prediction.webp'
+import history_predictor from '../../assets/smoking_history_prediction.png'
 import layoff_lens from '../../assets/layoffs_lens.webp'
 import bigdata from '../../assets/bigdata.png'
+import medbot from '../../assets/medbot.png'
 
 export const projectsData = [
     {
@@ -13,16 +14,22 @@ export const projectsData = [
       url: "https://github.com/SudhanshuGulhane/Stock_Forecaster_Big_Data_Storage"
     },
     {
+      image: history_predictor,
+      title: "SmokeSense AI",
+      description: "Developed SmokeSenseAI, an end-to-end MLOps pipeline with PyTorch, Flask, and MLflow, achieving 83%+ accuracy on a 9M+ patient dataset, automated CI/CD with GitHub Actions, and deployed via Docker & Azure Container Instances (ACI) for real-time smoking prediction.",
+      url: "https://github.com/SudhanshuGulhane/Smoking-History-Predictor",
+    },
+    {
       image: ecom,
       title: "ShopTrek",
       description: "Built a full-stack e-commerce application with Java (Spring Boot backend, MVC architecture) and Vue.js (frontend), supporting 300+ developers through tutorials.",
       url: "https://github.com/webtutsplus/ecommerce-backend",
     },
     {
-      image: history_predictor,
-      title: "SmokeSense AI",
-      description: "Developed SmokeSenseAI, an end-to-end MLOps pipeline with PyTorch, Flask, and MLflow, achieving 83%+ accuracy on a 9M+ patient dataset, automated CI/CD with GitHub Actions, and deployed via Docker & Azure Container Instances (ACI) for real-time smoking prediction.",
-      url: "https://github.com/SudhanshuGulhane/Smoking-History-Predictor",
+      image: medbot,
+      title: "MedLlama",
+      description: "Developed a generative AI chatbot using LLaMA for language generation and conversational flows with LangChain, integrating Chroma vector store to index medical PDF knowledge base.",
+      url: "https://github.com/SudhanshuGulhane/GenAI_ChatBot",
     },
     {
       image: review_analyzer,

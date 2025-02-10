@@ -58,7 +58,7 @@
 
 .project-card img {
     width: 90%;
-    height: auto;
+    height: 65%;
     object-fit: cover;
     position: absolute;
     top: 6rem;
