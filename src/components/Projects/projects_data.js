@@ -11,7 +11,7 @@ export const projectsData = [
       image:bigdata,
       title: "StockVisionAI",
       description: "Utilized Hadoop HDFS, Hive, and Docker for scalable big data processing, combining stock data and CFPB customer complaints. Integrated Parquet for 3x faster queries and 3.33x storage efficiency. Built an interactive ReactJS + FastAPI web app for real-time insights.",
-      url: "https://github.com/SudhanshuGulhane/Stock_Forecaster_Big_Data_Storage"
+      url: "https://github.com/SudhanshuGulhane/Stock_Forecaster_WebApp"
     },
     {
       image: history_predictor,

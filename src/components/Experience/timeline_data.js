@@ -1,7 +1,7 @@
 const timelineElements = [
     {
         id: 1,
-        title: "Enhancing Autonomous Vehicles for Adverse Conditions",
+        title: "Research Assistant",
         location: "Riverside, USA",
         company_name: "UC Riverside",
         description: "Currently I am collaborating with prof <a href='https://cisl.ucr.edu/people/' target='_blank' style='color: black;'>Hang Qiu</a>, in CISL Lab with a focus is developing a context-aware sensor selection/fusion techniques tailored to inclement weather conditions for autonomous vehicles. Also leading an ongoing research survey under Professor Amr Magdy, exploring perception and decision-making in autonomous vehicles.",
