@@ -19,7 +19,7 @@ const Aboutme = () => {
       <div className='skills'>
           <span className={`skillsTitle ${isDarkMode}`}>What I work on</span>
           <span className={`skillsDesc ${isDarkMode}`}>
-          Software Engineer with hands-on experience across full-stack development and deep learning applications. Built SaaS plugins, scalable platforms and intelligent document chatbots.
+          I'm a Software Engineer with hands-on experience across full-stack development and deep learning applications. Built SaaS plugins, scalable platforms and intelligent document chatbots.
           Skilled in React, Spring Boot, Vue, Docker, PyTorch, LangChain, and cloud technologies. Passionate about building real-world AI systems that blend machine learning with robust software engineering.
           </span>
           <div className='skillsSection'>
