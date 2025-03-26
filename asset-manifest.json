@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31cde8bf.css",
-    "main.js": "/static/js/main.e2c50bba.js",
+    "main.css": "/static/css/main.22cd9717.css",
+    "main.js": "/static/js/main.91b3549e.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/profile.webp": "/static/media/profile.43625c9b2f4925f591cb.webp",
     "static/media/medbot.png": "/static/media/medbot.b45bd7bc7f9eafceaa7d.png",
@@ -9,15 +9,16 @@
     "static/media/bigdata.png": "/static/media/bigdata.628e06f1b5ef5fb67178.png",
     "static/media/e_commerce.webp": "/static/media/e_commerce.6bf882209afb2b70a8f4.webp",
     "static/media/smoking_history_prediction.png": "/static/media/smoking_history_prediction.c5b02ff39d8e8c0b7e0f.png",
+    "static/media/multimodal.png": "/static/media/multimodal.43664f0c50db229ac9c3.png",
     "static/media/stock-prediction.webp": "/static/media/stock-prediction.8cbea1ec6ef1f0ec8823.webp",
     "static/media/review_analyzer.webp": "/static/media/review_analyzer.9ed648f0d046b7c77208.webp",
     "index.html": "/index.html",
-    "main.31cde8bf.css.map": "/static/css/main.31cde8bf.css.map",
-    "main.e2c50bba.js.map": "/static/js/main.e2c50bba.js.map",
+    "main.22cd9717.css.map": "/static/css/main.22cd9717.css.map",
+    "main.91b3549e.js.map": "/static/js/main.91b3549e.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31cde8bf.css",
-    "static/js/main.e2c50bba.js"
+    "static/css/main.22cd9717.css",
+    "static/js/main.91b3549e.js"
   ]
 }
