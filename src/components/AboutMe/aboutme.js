@@ -18,19 +18,21 @@ const Aboutme = () => {
     >
       <div className='skills'>
           <span className={`skillsTitle ${isDarkMode}`}>What I work on</span>
-          <span className={`skillsDesc ${isDarkMode}`}>With expertise in deep learning, AI and web development, I enjoy building scalable applications with robust backends, responsive frontends, and seamless API integrations.
-          My strong foundation in programming, data analysis, and cloud technologies enables me to craft user-centric and high-performing solutions. Recently, I delved into <a href='https://www.coursera.org/account/accomplishments/verify/5XRP5B2R514X' target="_blank" rel="noopener noreferrer" className={`resume-link ${isDarkMode}`}><i class="fa-solid fa-link"></i>MLOps</a> and successfully completed an insightful course by DeepLearning.AI. This experience inspired me to enhance one of my machine learning projects by incorporating MLOps principles and best practices.</span>
+          <span className={`skillsDesc ${isDarkMode}`}>
+          Software Engineer with hands-on experience across full-stack development and deep learning applications. Built SaaS plugins, scalable platforms and intelligent document chatbots.
+          Skilled in React, Spring Boot, Vue, Docker, PyTorch, LangChain, and cloud technologies. Passionate about building real-world AI systems that blend machine learning with robust software engineering.
+          </span>
           <div className='skillsSection'>
             <div className={`skillsItem ${isDarkMode}`}>
               <div className='skillItemText'>
                 <h3>Full Stack Development</h3>
-                <p>React.js, Vue.js, Spring Boot, Flask, Node.js, RESTful APIs, Docker, Maven, CI/CD, MySQL, PostgreSQL, Hibernate ORM, AWS(EC2, Lambda), Azure, Git (GitHub, Bitbucket), Jira, Apache Hadoop, Hive, Spark, NoSQL</p>
+                <p>React, Vue, Spring Boot, Flask, Docker, Maven, CI/CD, MySQL, PostgreSQL, Hibernate ORM, AWS(EC2, Lambda), Azure, Git (GitHub, Bitbucket), Jira, Apache Hadoop, Hive, Spark, Chroma</p>
               </div>
             </div>
             <div className={`skillsItem ${isDarkMode}`}>
               <div className='skillItemText'>
                 <h3>Machine Learning and AI</h3>
-                <p>PyTorch, scikit-learn, TensorFlow,  Hugging Face, LSTM, OpenCV, NLP with BERT, YOLOv4, SVM, Matplotlib, Seaborn, NumPy, Pandas</p>
+                <p>PyTorch, TensorFlow, Hugging Face, scikit-learn, OpenCV, GPT and Llama-based models, LangChain , Matplotlib, Seaborn, NumPy, Pandas</p>
               </div>
             </div>
             <div className={`skillsItem ${isDarkMode}`}>

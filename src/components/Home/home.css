@@ -129,7 +129,7 @@ body {
 }
 
 .link:nth-child(4) i.light {
-    color: crimson;
+    color: rgb(5, 0, 1);
 }
 
 .cursor {

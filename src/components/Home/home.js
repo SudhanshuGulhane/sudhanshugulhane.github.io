@@ -67,6 +67,9 @@ const Home = () => {
                   <a href='https://leetcode.com/u/sudhanshungulhane/' target='_blank' rel='noopener noreferrer' className={`link ${isDarkMode}`}>
                       <i className='fas fa-code'></i> LeetCode
                   </a>
+                  <a href='https://link.springer.com/chapter/10.1007/978-3-031-24848-1_18' target='_blank' rel='noopener noreferrer' className={`link ${isDarkMode}`}>
+                      <i className={`fas fa-paper-plane ${isDarkMode}`}></i> Publication
+                  </a>
               </div>
           </div>
           <img src={profile} alt='Profile' className={`profile-pic ${isDarkMode}`} />

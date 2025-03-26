@@ -2,9 +2,10 @@ import stock_pred from '../../assets/stock-prediction.webp'
 import ecom from '../../assets/e_commerce.webp'
 import review_analyzer from '../../assets/review_analyzer.webp'
 import history_predictor from '../../assets/smoking_history_prediction.png'
-import layoff_lens from '../../assets/layoffs_lens.webp'
+import insight_lens from '../../assets/insight_lens.png'
 import bigdata from '../../assets/bigdata.png'
 import medbot from '../../assets/medbot.png'
+import multimodal from '../../assets/multimodal.png'
 
 export const projectsData = [
     {
@@ -14,10 +15,22 @@ export const projectsData = [
       url: "https://github.com/SudhanshuGulhane/Stock_Forecaster_WebApp"
     },
     {
+      image: multimodal,
+      title: "MultiModal Rag ChatApp",
+      description: "Developed a scalable GenAI pipeline with RAG, multi-vector retrieval, and modular architecture (Chroma, LangChain) for contextual Q&A over structured PDFs, leveraging multimodal embeddings and summarization workflows with GPT-4o-mini and Groq LLaMA-3.1.",
+      url: "https://github.com/SudhanshuGulhane/MultiModalRag-App"
+    },
+    {
       image: history_predictor,
       title: "SmokeSense AI",
       description: "Developed SmokeSenseAI, an end-to-end MLOps pipeline with PyTorch, Flask, and MLflow, achieving 83%+ accuracy on a 9M+ patient dataset, automated CI/CD with GitHub Actions, and deployed via Docker & Azure Container Instances (ACI) for real-time smoking prediction.",
       url: "https://github.com/SudhanshuGulhane/Smoking-History-Predictor",
+    },
+    {
+      image: insight_lens,
+      title: "InsightLens",
+      description: "Developed a search engine analyzing job market trends using Python, FAISS, and Hugging Face Transformers.",
+      url: "https://github.com/SudhanshuGulhane/InsightLens",
     },
     {
       image: ecom,
@@ -36,12 +49,6 @@ export const projectsData = [
       title: "ReviewPulse",
       description: "Developed a Python Flask backend and React frontend to analyze product reviews with 90% accuracy using a linear SVM.",
       url: "https://github.com/SudhanshuGulhane/Amazon-Scraping-and-Sentiment-Analysis",
-    },
-    {
-      image: layoff_lens,
-      title: "LayoffLens",
-      description: "Developed a search engine analyzing layoff trends using Python, FAISS, and Hugging Face Transformers.",
-      url: "https://github.com/SudhanshuGulhane/Layoff_Lens",
     },
     {
       image: stock_pred,
